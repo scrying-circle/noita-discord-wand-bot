@@ -398,6 +398,6 @@ client.on('messageCreate', message => {
 		display.send(message, spells, spell_list);
 	} else if (message.content.startsWith('.test')) {
 		message.channel.send("https://github.com/scrying-circle/wandmaster/blob/main/discordbot.js");
-	}
+	} //Due to version mismatch, this script does not contain .upload functionality.
 })
 client.login('');
